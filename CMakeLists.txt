@@ -30,7 +30,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 # 添加头文件
 set(GLEW_H /usr/local/Cellar/glew/2.1.0/include/GL)
-set(GLFW_H /usr/local/Cellar/glfw/3.3/include/GLFW)
+set(GLFW_H /usr/local/Cellar/glfw/3.3.2/include/GLFW)
 set(GLAD_H /usr/local/include/glad)
 #include freetype
 set(FREETYPE_H /usr/local/Cellar/freetype/2.10.1/include/freetype2)
@@ -38,7 +38,7 @@ include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H} ${FREETYPE_H})
 
 # 添加目标链接
 set(GLEW_LINK /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib)
-set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
+set(GLFW_LINK /usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.dylib)
 # method 1(assimp): brew install assimp
 set(ASSIMP_LINK /usr/local/Cellar/assimp/4.1.0/lib/libassimp.4.1.0.dylib)
 #brew install freetype
